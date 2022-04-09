@@ -108,26 +108,23 @@
 					//Change the text of button to new button / reset
 					
 					{
-					a = "O";
-					m = 0;
-					b1.Enabled = true; b1.Text = ""; b1.BackColor = Color.White;
-					//now write same code for other 8 buttons.....
-					 b2.Enabled = true; b2.Text = ""; b2.BackColor = Color.White;
-            			 b3.Enabled = true; b3.Text = ""; b3.BackColor = Color.White;
-          				 b4.Enabled = true; b4.Text = ""; b4.BackColor = Color.White;
-           				 b5.Enabled = true; b5.Text = ""; b5.BackColor = Color.White;
-           				 b6.Enabled = true; b6.Text = ""; b6.BackColor = Color.White;
-           				 b7.Enabled = true; b7.Text = ""; b7.BackColor = Color.White;
-           				 b8.Enabled = true; b8.Text = ""; b8.BackColor = Color.White;
-           				 b9.Enabled = true; b9.Text = ""; b9.BackColor = Color.White;
-					 tableLayoutPanel1.Enabled = true;
+					 a = "O";
+           				 m = 0;
+             				 b1.Text = ""; b1.BackColor = Color.White;
+            				 b2.Text = ""; b2.BackColor = Color.White;
+             				 b3.Text = ""; b3.BackColor = Color.White;
+            				 b4.Text = ""; b4.BackColor = Color.White;
+		     			 b5.Text = ""; b5.BackColor = Color.White;
+            				 b6.Text = ""; b6.BackColor = Color.White;
+           				 b7.Text = ""; b7.BackColor = Color.White;
+            				 b8.Text = ""; b8.BackColor = Color.White;
+            				 b9.Text = ""; b9.BackColor = Color.White;
+					 
 					}
 
 
 
 
-Here I used enabled: As per google it means that it enables the control at runtime
-Source Code: From Youtube...
 
 
 
