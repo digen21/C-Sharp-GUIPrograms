@@ -27,19 +27,18 @@ namespace WindowsFormsApplication6
         {
             //creating object for 9 buuton to fill the colors on click
             Button bt = sender as Button;
-            bt.Enabled = false;
             bt.BackColor = Color.Green;
             if (w == "o")
             {
                 bt.Text = "o";
-                if ((b1.Text == b2.Text && b2.Text == b3.Text && b2.Text != "") ||
-                    (b4.Text == b5.Text && b5.Text == b6.Text && b5.Text != "") ||
-                    (b7.Text == b8.Text && b8.Text == b9.Text && b8.Text != "") ||
-                    (b1.Text == b4.Text && b4.Text == b7.Text && b4.Text != "") ||
-                    (b2.Text == b5.Text && b5.Text == b8.Text && b5.Text != "") ||
-                    (b3.Text == b6.Text && b6.Text == b9.Text && b6.Text != "") ||
-                    (b1.Text == b5.Text && b5.Text == b7.Text && b5.Text != "") ||
-                    (b3.Text == b5.Text && b5.Text == b7.Text && b5.Text != ""))
+               if ((b1.Text == b2.Text && b2.Text == b3.Text && b3.Text != "") ||
+                    (b4.Text == b5.Text && b5.Text == b6.Text && b6.Text != "") ||
+                    (b7.Text == b8.Text && b8.Text == b9.Text && b9.Text != "") ||
+                    (b1.Text == b4.Text && b4.Text == b7.Text && b7.Text != "") ||
+                    (b2.Text == b5.Text && b5.Text == b8.Text && b8.Text != "") ||
+                    (b3.Text == b6.Text && b6.Text == b9.Text && b9.Text != "") ||
+                    (b1.Text == b5.Text && b5.Text == b9.Text && b9.Text != "") ||
+                    (b3.Text == b5.Text && b5.Text == b7.Text && b7.Text != ""))
                 {
                     MessageBox.Show(("The Winner Is : " + w.ToString()));
                    
@@ -53,16 +52,14 @@ namespace WindowsFormsApplication6
                 w = "x";
             }
             else if (w == "x")
-            {
-                bt.Text = "x";
-                if ((b1.Text == b2.Text && b2.Text == b3.Text && b2.Text != "") ||
-                    (b4.Text == b5.Text && b5.Text == b6.Text && b5.Text != "") ||
-                    (b7.Text == b8.Text && b8.Text == b9.Text && b8.Text != "") ||
-                    (b1.Text == b4.Text && b4.Text == b7.Text && b4.Text != "") ||
-                    (b2.Text == b5.Text && b5.Text == b8.Text && b5.Text != "") ||
-                    (b3.Text == b6.Text && b6.Text == b9.Text && b6.Text != "") ||
-                    (b1.Text == b5.Text && b5.Text == b7.Text && b5.Text != "") ||
-                    (b3.Text == b5.Text && b5.Text == b7.Text && b5.Text != ""))
+                 if((b1.Text == b2.Text && b2.Text == b3.Text && b3.Text != "") ||
+                    (b4.Text == b5.Text && b5.Text == b6.Text && b6.Text != "") ||
+                    (b7.Text == b8.Text && b8.Text == b9.Text && b9.Text != "") ||
+                    (b1.Text == b4.Text && b4.Text == b7.Text && b7.Text != "") ||
+                    (b2.Text == b5.Text && b5.Text == b8.Text && b8.Text != "") ||
+                    (b3.Text == b6.Text && b6.Text == b9.Text && b9.Text != "") ||
+                    (b1.Text == b5.Text && b5.Text == b9.Text && b9.Text != "") ||
+                    (b3.Text == b5.Text && b5.Text == b7.Text && b7.Text != ""))
                 {
                     MessageBox.Show(("The Winner Is : " + w.ToString().ToUpper()));
                     //TableLayoutPanel.Enabled = false;
@@ -88,16 +85,16 @@ namespace WindowsFormsApplication6
         {
             w = "o";
             m = 0;
-            b1.Enabled = true; b1.Text = ""; b1.BackColor = Color.White;
-            b2.Enabled = true; b2.Text = ""; b2.BackColor = Color.White;
-            b3.Enabled = true; b3.Text = ""; b3.BackColor = Color.White;
-            b4.Enabled = true; b4.Text = ""; b4.BackColor = Color.White;
-            b5.Enabled = true; b5.Text = ""; b5.BackColor = Color.White;
-            b6.Enabled = true; b6.Text = ""; b6.BackColor = Color.White;
-            b7.Enabled = true; b7.Text = ""; b7.BackColor = Color.White;
-            b8.Enabled = true; b8.Text = ""; b8.BackColor = Color.White;
-            b9.Enabled = true; b9.Text = ""; b9.BackColor = Color.White;
-            tableLayoutPanel1.Enabled = true;
+             b1.Text = ""; b1.BackColor = Color.White;
+             b2.Text = ""; b2.BackColor = Color.White;
+             b3.Text = ""; b3.BackColor = Color.White;
+             b4.Text = ""; b4.BackColor = Color.White;
+             b5.Text = ""; b5.BackColor = Color.White;
+             b6.Text = ""; b6.BackColor = Color.White;
+             b7.Text = ""; b7.BackColor = Color.White;
+             b8.Text = ""; b8.BackColor = Color.White;
+             b9.Text = ""; b9.BackColor = Color.White;
+            
             
         }
 
